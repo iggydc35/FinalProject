@@ -16,33 +16,45 @@
     <link rel="stylesheet" href="assets/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&amp;display=swap" rel="stylesheet">
 
-    <title>IFSC 3342 - Miguel Del Carmen</title>
+    <title>Final Project - Miguel Del Carmen</title>
 </head>
 
 <body>
     
         <div class="header">
-          <h1>IFSC 3342 - Miguel Del Carmen</h1>
+          <h1>Final Project - Miguel Del Carmen</h1>
         </div>
         <div class="topnav" id="myTopnav">
           <a href="#home" class="active">Home</a>
-          <a href="pre-assessment/index.html">Pre-Assessment</a>
-          <a href="html5demo/index.html">Static Grid</a>
-          <a href="html5demo/fluidgrid.html">fluid grid</a>
-          
-          <a href="resume/index.html">Resume</a>
-          <a href="css-grid-exercise-1/fluidgrid.html">CSS grid</a>
-          <a href="assets/froggy.png">Flexbox</a>
-          <a href="finalproj/index.html">Final Project</a>
-          <a href="html5vid/index.html">HTML5 Video/Audio</a>
+
           
  <!--       <a href="assets/js.js" class="icon" onclick="myFunction()"></a>   -->  
             <i class="fa fa-bars"></i>
           </a>
         </div>
         
+        
+        <div class="chatBot">
+            <header>
+                <h2>Miguel's SuperAI</h2>
+                <span alt="Close"
+                      id="cross"
+                      onclick="cancel()">X</span>
+            </header>
+            <ul class="chatbox">
+                <li class="chat-incoming chat">
+                    <p>Hey! How can I assist you today?</p>
+                </li>
+            </ul>
+            <div class="chat-input">
+                <textarea rows="0" cols="17"
+                          placeholder="Enter a message..."></textarea>
+                <button id="sendBTN">Send</button>
+            </div>
+        </div>
+        <script src="assets/script.js" defer></script>    
         <footer id="footer">
-          <h6>&copy; 2023 Miguel Del Carmen | <a href="#top">Back to Top</a></h6>
+          <h6>&copy; 2024 Miguel Del Carmen | <a href="#top">Back to Top</a></h6>
         </footer>
        
 </body>
