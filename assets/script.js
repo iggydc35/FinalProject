@@ -1,5 +1,4 @@
-// script.js
- 
+/* 
 const chatInput = 
     document.querySelector('.chat-input textarea');
 const sendChatBtn = 
@@ -10,7 +9,7 @@ let userMessage;
 const API_KEY = 
     "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";
  
-//OpenAI Free APIKey
+
  
 const createChatLi = (message, className) => {
     const chatLi = document.createElement("li");
