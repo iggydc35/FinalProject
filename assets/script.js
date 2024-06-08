@@ -1,4 +1,4 @@
-/* 
+
 const chatInput = 
     document.querySelector('.chat-input textarea');
 const sendChatBtn = 
