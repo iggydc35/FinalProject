@@ -7,7 +7,7 @@ const chatbox = document.querySelector(".chatbox");
  
 let userMessage;
 const API_KEY = 
-    "sk-proj-WBI5rGgVDv71omHYDFwvT3BlbkFJujCi3d52xAIIP33RelZ1";
+    "sk-proj-VbbbDnFirWnaek1nNrI7T3BlbkFJJmQZXhPYyml6aY3Efn9K";
  
 
  
